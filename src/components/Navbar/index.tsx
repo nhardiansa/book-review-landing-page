@@ -15,10 +15,15 @@ export const Navbar: React.FC = () => {
           </svg>
         </i>
       </form>
-      <div className='menu-icon lg:hidden'>
+      <div className='menu-icon md:hidden'>
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-secondary2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
         </svg>
+      </div>
+      <div className='profile-image md:block hidden'>
+        <div className='p-[0.4rem] bg-secondary rounded-full'>
+          <p className='font-Merriweather'>NH</p>
+        </div>
       </div>
     </nav>
   )
