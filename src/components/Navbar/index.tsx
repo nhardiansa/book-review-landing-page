@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Navbar: React.FC = () => {
   return (
-    <nav className='container px-3 md:p-5 py-3 flex align-middle justify-between'>
+    <nav className='container px-3 md:p-5 py-3 flex align-middle justify-between fixed z-10 bg-white'>
       <h1 className='font-McLaren text-xl'>
         <span className='text-secondary2'>Review</span>
         <span className='text-secondary'>Book</span>
