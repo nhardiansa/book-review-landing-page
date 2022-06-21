@@ -6,7 +6,7 @@ import illustration from '../../assets/images/ilustration.png'
 
 export const Hero: React.FC = () => {
   return (
-    <Container>
+    <Container navBellow={true}>
       <div className='hero-container bg-primary lg:flex justify-around relative items-center rounded-xl overflow-hidden'>
         <div className="left-side font-Merriweather rounded-xl p-4 md:p-7 z-10">
           <h2 className='text-secondary2 w-5/6 md:w-2/5 font-bold text-3xl lg:text-4xl mb-4 lg:w-full'>Book is a <br className='hidden lg:block' /> window to the world</h2>
